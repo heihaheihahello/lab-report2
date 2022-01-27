@@ -49,6 +49,7 @@
     2. **Symptom**: The problematic output is:
 
     ![Image](2-w.jpg)
+    
     > `it must be` is not a link but is also outputed.
       
     3. Then we make the following change:
