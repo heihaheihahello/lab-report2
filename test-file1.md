@@ -1,4 +1,3 @@
 # Title
 
-[a link!](https://something.com)
-Hi
+(https://something.com)
