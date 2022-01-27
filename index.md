@@ -46,10 +46,10 @@
     [another link!](some-page.html)
 
     ```
-
     > In this test file, there is a [] and () but they are not markdown of links
 
     2. **Symptom**: The problematic output is: 
+    
     ![Image](2-w.jpg)
     > `it must be` is not a link but is also outputed.
       
