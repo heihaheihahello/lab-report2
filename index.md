@@ -33,7 +33,7 @@
 * ### **bug-fix-2**
     
 
-    1. The test file that caused bug is [this](https://heihaheihahello.github.io/lab-report2/test-file2.md):
+    1. In this [test file](https://heihaheihahello.github.io/lab-report2/test-file2.md) caused bug, there is a [] and () but they are not markdown of links:
 
     ```
     # Title
