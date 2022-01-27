@@ -21,7 +21,7 @@
 
     3. Then we make the following change:
     ![Image](1_fix.jpg)
-    > the fixed markdown of group is [this one](https://github.com/heihaheihahello/markdown-parse/blob/main/MarkdownParse.java)
+    > the fixed markdown of group is [this one](https://github.com/heihaheihahello/markdown-parse/commit/cb05f22b9c82efd0bcccac345a8483712464bd52#diff-c703a0ec03474d601c6bf846740b293e0538bccf38d5f677a302457479e9c652)
 
     4. the fixed output: 
 
