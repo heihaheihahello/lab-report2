@@ -47,7 +47,7 @@
     > In this test file, there is a [] and () but they are not markdown of links
 
     2. **Symptom**: The problematic output is:
-    
+
     ![Image](2-w.jpg)
     > `it must be` is not a link but is also outputed.
       
@@ -59,6 +59,7 @@
 
     ![Image](2fixed.jpg)
     > now we only output the links without normal text in `()`.
+
 
     5. Analysis: Before we fix, the program will find next `()` after locating a `[]` without considering how many text between `]` and `(`. Only the form of `[](link)` is counted as link. In other words, only when we find the next index of `]` is `(`, we take the content inside `()` as links. The fix is to add this check, if `(` is not immediately behind `]`, we don't add the content in `()` to `toReturn` and `continue` to look for next `[` and `]`.
 ---
