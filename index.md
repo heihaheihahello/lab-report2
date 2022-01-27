@@ -1,6 +1,8 @@
 ## Lab report 2
 > start with original MarkdownParse.java
+
 ---
+
 * ### **bug-fix-1**
 
     - The test file that caused bug like [this](https://heihaheihahello.github.io/lab-report2/test-file1.md):
