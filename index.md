@@ -17,7 +17,7 @@
 
     2. **Symptom**: The problematic output is: 
     ![Image](1w.jpg)
-    > MarkdownParse.java got "StringIndexOutOfBoundsException" error.
+    > MarkdownParse.java got "StringIndexOutOfBoundsException" error related to the line with `substring` method.
 
     3. Then we make the following change:
     ![Image](1_fix.jpg)
