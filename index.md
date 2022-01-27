@@ -5,7 +5,7 @@
 
 * ### **bug-fix-1**
 
-    1. This [test file](https://heihaheihahello.github.io/lab-report2/test-file1.md) caused bug has no links:
+    The first [test file](https://heihaheihahello.github.io/lab-report2/test-file1.md) caused bug has no links:
 
     ```
     # Title
@@ -33,7 +33,7 @@
 * ### **bug-fix-2**
     
 
-    1. In this [test file](https://heihaheihahello.github.io/lab-report2/test-file2.md) caused bug, there is a [] and () but they are not markdown of links:
+    The second [test file](https://heihaheihahello.github.io/lab-report2/test-file2.md) caused bug, there is a [] and () but they are not markdown of links:
 
     ```
     # Title
@@ -49,7 +49,7 @@
     2. **Symptom**: The problematic output is:
 
     ![Image](2-w.jpg)
-    
+
     > `it must be` is not a link but is also outputed.
       
     3. Then we make the following change:
