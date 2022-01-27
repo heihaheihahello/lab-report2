@@ -6,12 +6,14 @@
 * ### **bug-fix-1**
 
     - The test file that caused bug like [this](https://heihaheihahello.github.io/lab-report2/test-file1.md):
+
     ```
     # Title
 
     (https://something.com)
 
     ```
+    
     > In this test file, there is no links.
     - **Symptom**: The problematic output is: 
     ![Image](1w.jpg)
