@@ -16,7 +16,7 @@
     > In this test file, there is no links.
     - **Symptom**: The problematic output is: 
     ![Image](1w.jpg)
-    > we can see MarkdownParse.java got in infinite loop.
+    > MarkdownParse.java got "StringIndexOutOfBoundsException" when we .
 
     - Then we make the following change:
     ![Image](1fix.jpg)
