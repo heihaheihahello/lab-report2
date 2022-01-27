@@ -13,7 +13,7 @@
     (https://something.com)
 
     ```
-    
+
     > In this test file, there is no links.
     - **Symptom**: The problematic output is: 
     ![Image](1w.jpg)
@@ -23,6 +23,7 @@
     ![Image](1fix.jpg)
 
     - the fixed output: 
+    
     ![Image](1fixed.jpg)
     > if there is no links, the output should be a single `[]` with nothing inside. Now the output is what we expected, we fixed this bug.
 
