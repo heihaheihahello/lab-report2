@@ -14,6 +14,7 @@
     ```
 
     > In this test file, there is no links, no `[]` and `()`.
+    
     - **Symptom**: The problematic output is: 
     ![Image](1w.jpg)
     > MarkdownParse.java got "StringIndexOutOfBoundsException" error.
