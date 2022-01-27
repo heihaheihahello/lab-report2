@@ -34,5 +34,34 @@
 
 * ### **bug-fix-2**
     
-      
 
+    1. The test file that caused bug is [this](https://heihaheihahello.github.io/lab-report2/test-file2.md):
+
+    ```
+    # Title
+
+    what ever text
+
+    we will use `[]` for writing links(it must be).
+    [another link!](some-page.html)
+
+    ```
+
+    > In this test file, there is a [] and () but they are not markdown of links
+
+    2. **Symptom**: The problematic output is: 
+    ![Image](2-w.jpg)
+    > `it must be` is not a link but is also outputed.
+      
+    3. Then we make the following change:
+    ![Image](2_fix.jpg)
+    > the fixed markdown of group is [this one](https://github.com/heihaheihahello/lab-report2/commit/b18f0e5a3144cf7e7c77be995c9af0cdf1eb8c52#diff-c703a0ec03474d601c6bf846740b293e0538bccf38d5f677a302457479e9c652)
+
+    4. the fixed output: 
+
+    ![Image](2fixed.jpg)
+    > now we only output the links without normal text in `()`.
+
+    5. Analysis: Before we fix, the program will find next `()` after locating a `[]` without considering how many text between `]` and `(`. Only the form of `[](link)` is counted as link. In other words, only when we find the next index of `]` is `(`, we take the content inside `()` as links. The fix is to add this check, if `(` is not immediately behind `]`, we `continue` and look for next `[` and `]`.
+---
+  
