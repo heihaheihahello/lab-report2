@@ -5,14 +5,13 @@
 
 * ### **bug-fix-1**
 
-    1. The test file that caused bug is [this](https://heihaheihahello.github.io/lab-report2/test-file1.md):
+    1. This [test file](https://heihaheihahello.github.io/lab-report2/test-file1.md) caused bug has no links:
 
     ```
     # Title
 
     what ever text
     ```
-    > In this test file, there is no links.
 
     2. **Symptom**: The problematic output is: 
     ![Image](1w.jpg)
@@ -49,7 +48,7 @@
     > In this test file, there is a [] and () but they are not markdown of links
 
     2. **Symptom**: The problematic output is: 
-    
+
     ![Image](2-w.jpg)
     > `it must be` is not a link but is also outputed.
       
