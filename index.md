@@ -13,7 +13,7 @@
     what ever text
     ```
 
-    > In this test file, there is no links, no `[]` and `()`.
+    > In this test file, there is no links.
 
     2. **Symptom**: The problematic output is: 
     ![Image](1w.jpg)
