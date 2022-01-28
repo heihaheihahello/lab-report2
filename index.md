@@ -76,7 +76,7 @@
     ()[]
     ```
     - **Symptom**: The problematic output is: 
-    
+
     ![Image](3w.jpg)
 
     > we can see the program infinitely runs the printout statement and does not stop until stop by `ctrl + c`.
@@ -87,6 +87,7 @@
     > the fixed markdown of group is [this one](https://github.com/heihaheihahello/markdown-parse/commit/17d4532ef3402b3db58f732f23f611bc3b47d86c#diff-c703a0ec03474d601c6bf846740b293e0538bccf38d5f677a302457479e9c652)
 
     - the fixed output:
+    
     ![Image](3fixed.jpg)
 
     >now we run the print statement in finite time and output the only link, which is what we expected.
