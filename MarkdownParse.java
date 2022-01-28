@@ -22,10 +22,10 @@ public class MarkdownParse {
                 continue;
             }
             int closeParen = markdown.indexOf(")", openParen);
-            if(nextOpenBracket == 0 || markdown.substring(nextOpenBracket-1, nextOpenBracket).equals("!") == false){
+            /*if(nextOpenBracket == 0 || markdown.substring(nextOpenBracket-1, nextOpenBracket).equals("!") == false){
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
-            }
-            //toReturn.add(markdown.substring(openParen + 1, closeParen));
+            }*/
+            toReturn.add(markdown.substring(openParen + 1, closeParen));
             currentIndex = closeParen + 1;
         }
         return toReturn;
