@@ -76,6 +76,7 @@
     ()[]
     ```
     - **Symptom**: The problematic output is: 
+    
     ![Image](3w.jpg)
 
     > we can see the program infinitely runs the printout statement and does not stop until stop by `ctrl + c`.
