@@ -66,3 +66,36 @@
     
 ---
 
+* ### **bug-fix-3**
+
+    The third [test file](https://heihaheihahello.github.io/markdown-parse/test-file3.md) caused bug end with `()[]`:
+
+    ```
+    [](acacacac)
+
+    ()[]
+    ```
+    - **Symptom**: The problematic output is: 
+    ![Image](3w.jpg)
+
+    > we can see the program infinitely runs the printout statement and does not stop until stop by `ctrl + c`.
+
+    - Then we make the following change:
+    ![Image](3_fix.jpg)
+
+    > the fixed markdown of group is [this one](https://github.com/heihaheihahello/markdown-parse/commit/17d4532ef3402b3db58f732f23f611bc3b47d86c#diff-c703a0ec03474d601c6bf846740b293e0538bccf38d5f677a302457479e9c652)
+
+    - the fixed output:
+    ![Image](3fixed.jpg)
+
+    >now we run the print statement in finite time and output the only link, which is what we expected.
+
+    - Analysis: The bug happened because we don't have a break point for searching `(`. The breaking point existed is to break when there is no more `[`. After the correct link, the program found the next `[`, but there is no `(` so that index of `(` is `-1` and index of `)` is `11`. Then the `currentIndex` is always `12`. In other words, the program just repeated adding the first line with correct link, as a **infinite loop**. So we add another breaking point to check if there is more `(`, if not, we end the program and return what we got.
+
+---
+End of 2nd lab report. Thanks for watching!
+
+
+
+
+
